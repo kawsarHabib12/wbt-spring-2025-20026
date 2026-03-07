@@ -1,7 +1,9 @@
-Selector {
+.Selector {
     Property: value;
 }
- 
+/* {
+    box-sizing: border-box;
+} */
 body {
     background-color: rgb(240, 239, 237);
     margin: 0px
