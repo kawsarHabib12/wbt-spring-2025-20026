@@ -1,68 +1,118 @@
-Selector {
-    Property: value;
+* {
+    box-sizing: border-box;
 }
- 
+
 body {
     background-color: rgb(240, 239, 237);
-    margin: 0px
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
 }
- 
+
 header {
     overflow: auto;
-    margin: 0px;
-    border: 0px;
-    padding: 10px 20px;
+    margin: 0;
+    padding: 15px 20px;
     background-color: rgb(20, 44, 54);
 }
- 
+
 h1 {
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 40px;
     margin: 10px;
     float: left;
 }
- 
+
 nav {
-    border: 50px;
-    margin: 10px;
+    margin: 18px 10px 10px 10px;
     float: right;
 }
- 
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
+    margin-right: 15px;
+    list-style: none;
 }
- 
+
 .link {
     color: white;
     text-decoration: none;
     background-color: rgb(41, 110, 137);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 14px;
+    transition: 0.3s;
 }
- 
-main {
-    margin: 8px;
+
+.link:hover {
+    background-color: rgb(30, 86, 108);
 }
- 
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.project {
+    background-color: white;
+    width: 320px;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: rgb(20, 44, 54);
+}
+
+.project img {
+    width: 100%;
+    max-width: 280px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
 footer {
     background-color: rgb(20, 44, 54);
-    padding: 5px 0;
+    padding: 12px 0;
     width: 100%;
+    margin-top: 30px;
 }
- 
-.foot {
+
+ .foot {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
- 
+
 .foot img {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 45px;
     object-fit: contain;
+    background-color: rgb(23, 21, 21);
 }
- .git {
+
+.git {
     background-color: rgb(228, 235, 237);
+   width: 36px;
+    height: 36px;
+}

@@ -47,6 +47,18 @@ li {
 main {
     margin: 8px;
 }
+
+.submit 
+{
+    background-color: rgb(101, 76, 226);
+}
+    
+    
+   
+.reset {
+    background-color: rgb(226, 76, 76);
+}
+  
  
 footer {
     background-color: rgb(20, 44, 54);

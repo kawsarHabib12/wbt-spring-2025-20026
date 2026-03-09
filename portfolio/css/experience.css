@@ -3,8 +3,15 @@ Selector {
 }
  
 body {
-    background-color: rgb(240, 239, 237);
+    background-color: rgb(237, 235, 230);
     margin: 0px
+}
+img {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
 }
  
 header {
@@ -12,7 +19,7 @@ header {
     margin: 0px;
     border: 0px;
     padding: 10px 20px;
-    background-color: rgb(20, 44, 54);
+    background-color: rgb(3, 18, 24);
 }
  
 h1 {
@@ -35,9 +42,9 @@ li {
 }
  
 .link {
-    color: white;
+    color: rgb(24, 22, 22);
     text-decoration: none;
-    background-color: rgb(41, 110, 137);
+    background-color: rgb(26, 170, 227);
     border-radius: 10px;
     padding: 10px;
 }
