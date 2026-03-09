@@ -13,6 +13,10 @@ img {
     flex-wrap: wrap;
     padding: 30px 20px;
 }
+.photo:hover {
+    transform: scale(1.05);
+    transition: 0.3s;   
+}
  
 header {
     overflow: auto;

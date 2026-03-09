@@ -1,67 +1,100 @@
-Selector {
-    Property: value;
+body{
+    background-color: rgb(240,239,237);
+    margin:0;
+    font-family: Arial, sans-serif;
 }
- 
-body {
-    background-color: rgb(240, 239, 237);
-    margin: 0px
+
+
+
+header{
+    background-color: rgb(20,44,54);
+    padding:10px 20px;
+    overflow:auto;
 }
- 
-header {
-    overflow: auto;
-    margin: 0px;
-    border: 0px;
-    padding: 10px 20px;
-    background-color: rgb(20, 44, 54);
+
+h1{
+    color:white;
+    float:left;
 }
- 
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin: 10px;
-    float: left;
+
+nav{
+    float:right;
 }
- 
-nav {
-    border: 50px;
-    margin: 10px;
-    float: right;
+
+li{
+    display:inline-block;
+    margin-right:20px;
 }
- 
-li {
-    display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
+
+.link{
+    color:white;
+    text-decoration:none;
+    background-color: rgb(41,110,137);
+    padding:10px;
+    border-radius:10px;
 }
- 
-.link {
-    color: white;
-    text-decoration: none;
-    background-color: rgb(41, 110, 137);
-    border-radius: 10px;
-    padding: 10px;
+
+
+
+
+
+.intro{
+    text-align:center;
+    padding:40px;
 }
- 
-main {
-    margin: 8px;
+
+.intro img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin-bottom:15px;
+   
 }
- 
-footer {
-    background-color: rgb(20, 44, 54);
-    padding: 5px 0;
-    width: 100%;
+.photo:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
- 
-.foot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+
+/* Skills */
+
+.skills{
+    text-align:center;
+    padding:30px;
 }
- 
-.foot img {
-    width: 36px;
-    height: 36px;
-    object-fit: contain;
+
+.skills ul{
+    list-style:none;
+    padding:0;
 }
- 
+
+.skills li{
+    background:#ddd;
+    padding:10px;
+    margin:10px;
+    display:inline-block;
+    border-radius:8px;
+}
+
+/* About */
+
+.about{
+    text-align:center;
+    padding:30px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(20,44,54);
+    padding:10px;
+}
+
+.foot{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.foot img{
+    width:35px;
+}

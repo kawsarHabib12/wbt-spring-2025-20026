@@ -69,6 +69,7 @@ li {
     text-align: center;
 }
 
+
 .project h2 {
     font-size: 22px;
     margin-bottom: 15px;
@@ -82,6 +83,11 @@ li {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+.project:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+
 }
 
 .project-card p {
