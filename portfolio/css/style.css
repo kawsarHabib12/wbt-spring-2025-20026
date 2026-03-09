@@ -57,7 +57,7 @@ li{
     transition: 0.3s;
 }
 
-/* Skills */
+
 
 .skills{
     text-align:center;
@@ -77,14 +77,14 @@ li{
     border-radius:8px;
 }
 
-/* About */
+
 
 .about{
     text-align:center;
     padding:30px;
 }
 
-/* Footer */
+
 
 footer{
     background-color: rgb(20,44,54);

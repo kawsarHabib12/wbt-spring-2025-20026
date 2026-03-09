@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(240,239,237);
+    background-color: white;
     margin:0;
     font-family: Arial, sans-serif;
 }
 
-/* Header */
+
 
 header{
     background-color: rgb(20,44,54);
@@ -46,8 +46,8 @@ li{
     padding:40px;
 }
 
-.edu-card{
-    background:white;
+.edu{
+    background:rgba(155, 188, 183, 0.973);
     width:300px;
     padding:20px;
     border-radius:12px;
@@ -56,21 +56,21 @@ li{
 }
 
 
-.edu-card img{
+.edu img{
     width:60px;
     margin-bottom:10px;
 }
 
-.edu-card h3{
+.edu h3{
     color:rgb(20,44,54);
 }
 
-.edu-card:hover{
+.edu:hover{
     transform:scale(1.05);
     transition:0.3s;
 }
 
-/* Footer */
+
 
 footer{
     background-color: rgb(20,44,54);

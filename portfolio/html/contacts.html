@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacts.css">
 </head>
 <body>
 
@@ -14,109 +14,103 @@
             <ul>
                 <li><a class="link" href="../index.html">Homepage</a></li>
                 <li><a class="link" href="project.html">Projects</a></li>
-               <li><a class="link" href="education.html">Education</a></li>
+                <li><a class="link" href="education.html">Education</a></li>
                 <li><a class="link" href="experience.html">Experience</a></li>
             </ul>
         </nav>
     </header>
 
-    <form method="post">
-        <fieldset>
-            <legend>Registration Form</legend>
+    <main>
+        <form method="post">
+            <fieldset>
+                <legend>Registration Form</legend>
 
-            <table>
-                <tr>
-                    <td><label for="fname">First Name:</label></td>
-                    <td>
-                        <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required>
-                    </td>
-                </tr>
+                <table>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                        <td><input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="lname">Last Name:</label></td>
-                    <td>
-                        <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="lname">Last Name:</label></td>
+                        <td><input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label>Gender:</label></td>
-                    <td>
-                        <input type="radio" id="male" name="gender" value="male" required>
-                        <label for="male">Male</label>
+                    <tr>
+                        <td><label>Gender:</label></td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
 
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Female</label>
-                    </td>
-                </tr>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td><label for="email">Email:</label></td>
-                    <td>
-                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter Your Email" required></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="company">Company:</label></td>
-                    <td>
-                        <input type="text" id="company" name="company" placeholder="Enter Your Company Name">
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="company">Company:</label></td>
+                        <td><input type="text" id="company" name="company" placeholder="Enter Your Company Name"></td>
+                    </tr>
 
-                <tr>
-                    <td><label>Reason of Contact:</label></td>
-                    <td>
-                        <input type="radio" id="projects" name="reason" value="projects" required>
-                        <label for="projects">Projects</label>
+                    <tr>
+                        <td><label>Reason of Contact:</label></td>
+                        <td>
+                            <input type="radio" id="projects" name="reason" value="projects" required>
+                            <label for="projects">Projects</label>
 
-                        <input type="radio" id="thesis" name="reason" value="thesis">
-                        <label for="thesis">Thesis</label>
+                            <input type="radio" id="thesis" name="reason" value="thesis">
+                            <label for="thesis">Thesis</label>
 
-                        <input type="radio" id="job" name="reason" value="job">
-                        <label for="job">Job</label>
-                    </td>
-                </tr>
+                            <input type="radio" id="job" name="reason" value="job">
+                            <label for="job">Job</label>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td><label>Skills:</label></td>
-                    <td>
-                        <input type="checkbox" id="web" name="skills" value="web development">
-                        <label for="web">Web Development</label>
+                    <tr>
+                        <td><label>Skills:</label></td>
+                        <td>
+                            <input type="checkbox" id="web" name="skills" value="web development">
+                            <label for="web">Web Development</label>
 
-                        <input type="checkbox" id="mobile" name="skills" value="mobile development">
-                        <label for="mobile">Mobile Development</label>
+                            <input type="checkbox" id="mobile" name="skills" value="mobile development">
+                            <label for="mobile">Mobile Development</label>
 
-                        <input type="checkbox" id="ai" name="skills" value="ai development">
-                        <label for="ai">AI/ML Development</label>
-                    </td>
-                </tr>
+                            <input type="checkbox" id="ai" name="skills" value="ai development">
+                            <label for="ai">AI/ML Development</label>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td><label for="date">Consultation Date:</label></td>
-                    <td>
-                        <input type="date" id="date" name="date" required>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><label for="date">Consultation Date:</label></td>
+                        <td><input type="date" id="date" name="date" required></td>
+                    </tr>
 
-                <tr>
-                    <td><input class="submit" type="submit" value="Submit"></td>
-                    <td><input class="reset" type="reset" value="Reset"></td>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
+                    <tr>
+                        <td  class="button  " colspan="2">
+                            <input class="submit" type="submit" value="Submit">
+                            <input class="reset" type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
 
     <footer>
         <div class="foot">
             <a href="https://github.com/kawsarHabib12" target="_blank">
-              <img src="/images/github.png" alt="">
+                <img src="../images/github.png" alt="GitHub">
             </a>
             <a href="#" target="_blank" class="git">
-                <img src="/images/linkedin.png" alt="LinkedIn">
+                <img src="../images/linkedin.png" alt="LinkedIn">
             </a>
         </div>
     </footer>
-        
+
 </body>
 </html>
