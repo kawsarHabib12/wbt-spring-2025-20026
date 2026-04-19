@@ -16,12 +16,15 @@
         echo " Rectangle is: " . $Rectangle ."<br>";
         $perimeter = 2 * ($length + $width);
         echo "The perimeter is: " . $perimeter. "<br>";
+        echo "<br>";
 
         echo "Task 2.". "<br>";
         $amount = 1000;
         $vat= $amount * 0.15;
         $total = $amount + $vat;
         echo "The total amount is: " . $total;
+        echo "<br>";
+        echo "<br>";
         
         echo "Task 3." . "<br>";
         $number = 5;
@@ -30,6 +33,8 @@
         } else {
             echo "The number is odd.";
         }
+        echo "<br>";
+        echo "<br>";
 
         echo "Task 4." . "<br>";
         $a= 10;
@@ -42,6 +47,8 @@
         } else {
             echo "The largest number is: " . $c;
         }
+        echo "<br>";
+        echo "<br>";
 
          echo "Task 5." . "<br>";
 
@@ -50,9 +57,29 @@
                 if ($i % 2 != 0) {
                   echo $i . " ";
                 }
-            }
+            }        
 
             echo "<br>";
+               echo "<br>";
+
+            echo "Task 6." . "<br>";
+            $numbers = array(10, 20, 30, 40, 50);
+
+                $search = 30;
+                $found = false;
+
+                for ($i = 0; $i < count($numbers); $i++) {
+                     if ($numbers[$i] == $search) {
+                       echo "Element found at array " ;
+                         $found = true;
+                             break;
+                                 }
+                     }
+                      if ($found == false) {
+                        echo "Element not found in the array." ."<br>"; 
+                        }    
+                        echo "<br>";               
+
             echo "Task 7.a" . "<br>";
 
             for ($i = 1; $i <= 5; $i++) {
@@ -61,6 +88,7 @@
                 }
                 echo "<br>";
             }
+            echo "<br>";
                 echo "Task 7.b" . "<br>";
 
             for( $i = 3; $i >= 1; $i--) {
