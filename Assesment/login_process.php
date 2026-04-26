@@ -1,11 +1,11 @@
 <?php
 $username = $password = "";
 $usernameErr = $passwordErr = "";
-
+ 
 function cleanInput($data) {
-    return htmlspecialchars(stripslashes(trim($data))); 
+    return htmlspecialchars(stripslashes(trim($data)));
 }
-
+ 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["username"])) {
         $usernameErr = "Username email is required";
@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $usernameErr = " Invalid email address";
         }
     }
-
+ 
     if (empty($_POST["password"])) {
         $passwordErr = "Password is required";
     } else {
@@ -26,5 +26,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
  
-
+ 
 ?>

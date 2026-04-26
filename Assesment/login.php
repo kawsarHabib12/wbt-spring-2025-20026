@@ -24,13 +24,13 @@
                     </td>
                 </tr>
         <input type="submit" value="Login">
-    </form> 
+    </form>
      <?php if ($_SERVER["REQUEST_METHOD"] == "POST" &&
         !$usernameErr &&  !$passwordErr): ?>
          <h2>Login Successful!</h2>
          <p>Welcome, <?php echo $username; ?>!</p>
          
      <?php endif; ?>
-
+ 
 </body>
 </html>
